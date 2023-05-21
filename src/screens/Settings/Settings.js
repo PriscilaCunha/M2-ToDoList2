@@ -1,11 +1,12 @@
 import { View, Text } from "react-native";
+import { Container } from "./Settings.styles";
 
 const Settings = () => {
     return (
-        <View>
+        <Container>
             <Text>Settings</Text>
-        </View>
-    )
-}
+        </Container>
+    );
+};
 
 export default Settings;
